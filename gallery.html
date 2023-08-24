@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Gallery | STEMBuds</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/logoNoWords.png">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body onscroll="scrollFunction()" onresize="galleryHeight()" onload="galleryHeight()">
+        <nav>
+            <div class="left-side">
+                <a href="index.html" class="logo"><img src="images/colorLogo.png" alt="logo"></a>
+            </div>
+
+            <div class="right-side">
+                <!-- Right-sided navbar links -->
+                <div class="right hide-small">
+
+                    <div id = "myNav" class="nav-link-wrapper overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <div class="overlay-content">
+
+                            <hr>
+
+                            <div id = "dropdown1" class="dropdown">
+								<div tabindex=0 onclick="toggleDropdown()" class = "link">
+									<a>TEAM</a>
+									<span class="carrot">&#8250;</span>
+								</div>
+								
+								<div class="dropdown-content">
+									<a class="dropdown-link" href="officers.html">Officers</a>
+									<a class="dropdown-link" href="leads.html">Leads</a>
+								</div>
+							</div>
+
+                            <hr>
+
+                            <a href="curriculum.html" class="link">CURRICULUM</a>
+
+                            <hr>
+
+                            <a href="get-involved.html" class="link">GET INVOLVED</a>
+
+                            <hr>
+
+                            <a href="gallery.html" class="link active-link">GALLERY</a>
+                            
+                            <hr>
+							
+							<a href="COVID-19-projects.html" class="link">COVID-19 PROJECTS</a>
+
+                            <hr>
+
+                            <a href="contact.html" class="link">CONTACT</a>
+
+                        </div>
+
+                    </div>
+
+                    <a href="javascript:void(0)" class="menu" onclick="openNav()">&#9776;</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Gallery</h1>
+                </div>
+            </div>
+
+            <div class="main-wrapper">	
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Fairgrounds-Building-Lego-Robots.jpg">
+                            <img src="images/gallery/Fairgrounds-Building-Lego-Robots.jpg" alt="Building Lego Robots">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Fairgrounds Elementary School</strong><br>Building Lego Robots
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Ledge-Street-Ecosystem-Project.jpg">
+                            <img src="images/gallery/Ledge-Street-Ecosystem-Project.jpg" alt="Ecosystem Project">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Ledge Street Elementary School</strong><br>Ecosystem Project
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Dr-Crisp-Biomes-Project.png">
+                            <img src="images/gallery/Dr-Crisp-Biomes-Project.png" alt="Biomes Project">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Dr. Crisp Elementary School</strong><br>Biomes Project</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Mt-Pleasant-Egg-Drop.jpg">
+                            <img src="images/gallery/Mt-Pleasant-Egg-Drop.jpg" alt="Egg Drop">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Mt. Pleasant Elementary School</strong><br>Egg Drop Experiment</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Ledge-Street-Research-Presentation.png">
+                            <img src="images/gallery/Ledge-Street-Research-Presentation.png" alt="Research Project Presentation">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Ledge Street Elementary School</strong><br>Research Project Presentation</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Dr-Crisp-Building-Lego-Robots.png">
+                            <img src="images/gallery/Dr-Crisp-Building-Lego-Robots.png" alt="Building Lego Robots">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Dr. Crisp Elementary School</strong><br>Building Lego Robots</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Ledge-Street-Marshmallow-Engineering.png">
+                            <img src="images/gallery/Ledge-Street-Marshmallow-Engineering.png" alt="Marshmallow Engineering Experiment">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Ledge Street Elementary School</strong><br>Marshmallow Engineering Experiment</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Fairgrounds-Math-Kickball.png">
+                            <img src="images/gallery/Fairgrounds-Math-Kickball.png" alt="Math Kickball">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Fairgrounds Elementary School</strong><br>Math Kickball</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Dr-Crisp-Homework-Help.png">
+                            <img src="images/gallery/Dr-Crisp-Homework-Help.png" alt="Homework Help">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Dr. Crisp Elementary School</strong><br>Homework Help</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Mt-Pleasant-Marshmallow-Engineering.jpg">
+                            <img src="images/gallery/Mt-Pleasant-Marshmallow-Engineering.jpg" alt="Marshmallow Engineering Experiment">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Mt. Pleasant Elementary School</strong><br>Marshmallow Engineering Experiment</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Fairgrounds-Building-Lego-Robots.png">
+                            <img src="images/gallery/Fairgrounds-Building-Lego-Robots.png" alt="Building Lego Robots">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Fairgrounds Elementary School</strong><br>Building Lego Robots</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Birch-Hill-Entrepreneurship.png">
+                            <img src="images/gallery/Birch-Hill-Entrepreneurship.jpeg" alt="Entrepreneurship Activity">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Birch Hill Elementary School</strong><br>Entrepreneurship Activity</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsive-gallery">
+                    <div class="gallery">
+                        <a target="_blank" href="images/gallery/Sunset-Heights-Entrepreneurship.png">
+                            <img src="images/gallery/Sunset-Heights-Entrepreneurship.jpeg" alt="Entrepreneurship Activity">
+                        </a>
+                        <div class="desc-wrapper">
+                            <div class="desc">
+                                <strong>Sunset Heights Elementary School</strong><br>Entrepreneurship Activity</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="left-footer-wrapper">
+                    <h3>Connect With Us</h3>
+
+                    <a href="https://www.facebook.com/Nashua-STEMBuds-215392212307853/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://www.instagram.com/stembuds_nh" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCsjvhlP21cPjfqtcdyCHVQA" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.linkedin.com/company/stembud" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+                <div class="right-footer-wrapper">
+                    <div class="right-footer-item">
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:info@stembuds.org">info@stembuds.org</a>
+                    </div>
+
+                    <div class="right-footer-item">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:(603) 943-1367">(603) 943-1367</a>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div> 
+            </footer>
+
+            <div class="copyright-footer">
+                <p>
+                    <a>Copyright &#169; 2021 STEMBuds. All rights reserved.</a>
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
